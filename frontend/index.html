@@ -1,0 +1,13 @@
+<html>
+  <head></head>
+  <body>
+    <script>
+      const ws = new WebSocket("ws://localhost:8080");
+
+      ws.onopen = function () {
+        alert("connected!");
+      };
+    </script>
+    Hello World!!!
+  </body>
+</html>
