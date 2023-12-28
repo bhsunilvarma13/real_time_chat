@@ -1,7 +1,7 @@
-import { UserId } from "../InmemoryStore";
+export type UserId = string;
 
 export interface Chat {
-  chatId: string;
+  id: string;
   userId: UserId;
   name: string;
   message: string;
